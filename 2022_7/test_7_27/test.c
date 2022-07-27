@@ -126,39 +126,57 @@
 //}
 
 
-int Fib1(int n)
-{
-	if (n > 2)
-	{
-		return Fib1(n - 1) + Fib1(n - 2);
-	}
-	else
-	{
-		return 1;
-	}
-}
+//int Fib1(int n)
+//{
+//	if (n > 2)
+//	{
+//		return Fib1(n - 1) + Fib1(n - 2);
+//	}
+//	else
+//	{
+//		return 1;
+//	}
+//}
+//
+//int Fib2(int n)
+//{
+//	int a = 1;
+//	int b = 1;
+//	int c = 1;
+//	while (n-- > 2)
+//	{
+//		c = a + b;
+//		b = a;
+//		a = c;
+//	}
+//	return c;
+//}
+//
+//int main()
+//{
+//	int n = 0;
+//	scanf("%d", &n);
+//	int ret = Fib1(n);
+//	printf("%d\n", ret);
+//	ret = Fib2(n);
+//	printf("%d\n", ret);
+//	return 0;
+//}
 
-int Fib2(int n)
-{
-	int a = 1;
-	int b = 1;
-	int c = 1;
-	while (n-- > 2)
-	{
-		c = a + b;
-		b = a;
-		a = c;
-	}
-	return c;
-}
 
-int main()
-{
-	int n = 0;
-	scanf("%d", &n);
-	int ret = Fib1(n);
-	printf("%d\n", ret);
-	ret = Fib2(n);
-	printf("%d\n", ret);
-	return 0;
-}
+//辗转相除法 求两个数的公约数
+//int main()
+//{
+//	int n = 0;
+//	int m = 0;
+//	int r = 0;
+//	scanf("%d %d", &n, &m);
+//	while (r = m % n)
+//	{
+//		m = n;
+//		n = r;
+//	}
+//	printf("%d\n", n);
+//	return 0;
+//}
+
